@@ -17,7 +17,7 @@ if (answer?.ToLower() != "yes")
 
 }
 
-while (true)
+while (player.Cash >= 0)
 {
     Console.Clear();
     Console.WriteLine("Welcome to the game! The odds is 0.75");
